@@ -3,6 +3,7 @@ $(function(){
   let test_array = [30,20,"テキストだって入れられる","他にも入る可能性があるが今日のところはテキスト","200"];
   
   
+  
   $("#button01").on("click",function(){
     $("#content").text(test_array[0]);
   })
